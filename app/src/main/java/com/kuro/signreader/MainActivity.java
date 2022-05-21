@@ -20,7 +20,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-import 
+
 import android.support.annotation.NonNull;
 
 public class MainActivity extends Activity {

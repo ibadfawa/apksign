@@ -21,6 +21,7 @@ import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import android.annotation.Nullable;
+import android.support.annotation.NonNull;
 
 public class MainActivity extends Activity {
     EditText appPkg;
@@ -28,7 +29,7 @@ public class MainActivity extends Activity {
     TextView resultBase64, resultCpp;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(@NonNull Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
 

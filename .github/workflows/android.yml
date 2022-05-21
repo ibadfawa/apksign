@@ -25,7 +25,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
       
-      ## Build all our Build Types at once ##
+      
 
 - name: Build all artifacts
 
